@@ -33,7 +33,7 @@ resource "aws_route" "public_internet_route" {
 
   destination_cidr_block = "0.0.0.0/0"
   gateway_id             = aws_internet_gateway.internet_gateway.id
-  depends_on             = [aws_route_table.public_route_table,aws_internet_gateway.internet_gateway]
+  depends_on             = [aws_route_table.public_route_table, aws_internet_gateway.internet_gateway]
 }
 
 resource "aws_subnet" "public_subnet_us_east_1a" {
