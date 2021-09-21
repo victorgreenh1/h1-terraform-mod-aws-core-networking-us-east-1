@@ -138,7 +138,7 @@ variable "public_subnet_us_east_1a_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "public_subnet_us_east_1a_tag_access"  {
+variable "public_subnet_us_east_1a_tag_access" {
   description = "Access"
   type        = string
   default     = "public"
@@ -154,7 +154,7 @@ variable "public_subnet_us_east_1b_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "public_subnet_us_east_1b_tag_access"  {
+variable "public_subnet_us_east_1b_tag_access" {
   description = "Access"
   type        = string
   default     = "public"
@@ -170,7 +170,7 @@ variable "public_subnet_us_east_1c_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "public_subnet_us_east_1c_tag_access"  {
+variable "public_subnet_us_east_1c_tag_access" {
   description = "Access"
   type        = string
   default     = "public"
@@ -186,7 +186,7 @@ variable "public_subnet_us_east_1d_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "public_subnet_us_east_1d_tag_access"  {
+variable "public_subnet_us_east_1d_tag_access" {
   description = "Access"
   type        = string
   default     = "public"
@@ -202,7 +202,7 @@ variable "public_subnet_us_east_1e_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "public_subnet_us_east_1e_tag_access"  {
+variable "public_subnet_us_east_1e_tag_access" {
   description = "Access"
   type        = string
   default     = "public"
@@ -218,13 +218,13 @@ variable "public_subnet_us_east_1f_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "public_subnet_us_east_1f_tag_access"  {
+variable "public_subnet_us_east_1f_tag_access" {
   description = "Access"
   type        = string
   default     = "public"
 }
 
-variable "us_east_1_public_ngw_tag_access"  {
+variable "us_east_1_public_ngw_tag_access" {
   description = "Access"
   type        = string
   default     = "public"
@@ -248,7 +248,7 @@ variable "private_subnet_us_east_1a_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "private_subnet_us_east_1a_tag_access"  {
+variable "private_subnet_us_east_1a_tag_access" {
   description = "Access"
   type        = string
   default     = "private"
@@ -264,7 +264,7 @@ variable "private_subnet_us_east_1b_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "private_subnet_us_east_1b_tag_access"  {
+variable "private_subnet_us_east_1b_tag_access" {
   description = "Access"
   type        = string
   default     = "private"
@@ -280,7 +280,7 @@ variable "private_subnet_us_east_1c_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "private_subnet_us_east_1c_tag_access"  {
+variable "private_subnet_us_east_1c_tag_access" {
   description = "Access"
   type        = string
   default     = "private"
@@ -296,7 +296,7 @@ variable "private_subnet_us_east_1d_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "private_subnet_us_east_1d_tag_access"  {
+variable "private_subnet_us_east_1d_tag_access" {
   description = "Access"
   type        = string
   default     = "private"
@@ -312,7 +312,7 @@ variable "private_subnet_us_east_1e_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "private_subnet_us_east_1e_tag_access"  {
+variable "private_subnet_us_east_1e_tag_access" {
   description = "Access"
   type        = string
   default     = "private"
@@ -328,7 +328,7 @@ variable "private_subnet_us_east_1f_map_public_ip_on_launch" {
   type        = bool
 }
 
-variable "private_subnet_us_east_1f_tag_access"  {
+variable "private_subnet_us_east_1f_tag_access" {
   description = "Access"
   type        = string
   default     = "private"
