@@ -24,9 +24,11 @@ resource "aws_subnet" "private_subnet_us_east_1a" {
   map_public_ip_on_launch = var.private_subnet_us_east_1a_map_public_ip_on_launch
 
   tags = {
-    env    = var.environment
-    Name   = "${var.environment}-useast1-private-us-east-1a-sn"
-    access = var.private_subnet_us_east_1a_tag_access
+    env                               = var.environment
+    Name                              = "${var.environment}-useast1-private-us-east-1a-sn"
+    access                            = var.private_subnet_us_east_1a_tag_access
+    "kubernetes.io/cluster/eks"       = "shared"
+    "kubernetes.io/role/internal-elb" = 1
   }
 }
 
@@ -44,9 +46,11 @@ resource "aws_subnet" "private_subnet_us_east_1b" {
   map_public_ip_on_launch = var.private_subnet_us_east_1b_map_public_ip_on_launch
 
   tags = {
-    env    = var.environment
-    Name   = "${var.environment}-useast1-private-us-east-1b-sn"
-    access = var.private_subnet_us_east_1b_tag_access
+    env                               = var.environment
+    Name                              = "${var.environment}-useast1-private-us-east-1b-sn"
+    access                            = var.private_subnet_us_east_1b_tag_access
+    "kubernetes.io/cluster/eks"       = "shared"
+    "kubernetes.io/role/internal-elb" = 1
   }
 }
 
@@ -63,9 +67,11 @@ resource "aws_subnet" "private_subnet_us_east_1c" {
   map_public_ip_on_launch = var.private_subnet_us_east_1c_map_public_ip_on_launch
 
   tags = {
-    env    = var.environment
-    Name   = "${var.environment}-useast1-private-us-east-1c-sn"
-    access = var.private_subnet_us_east_1c_tag_access
+    env                               = var.environment
+    Name                              = "${var.environment}-useast1-private-us-east-1c-sn"
+    access                            = var.private_subnet_us_east_1c_tag_access
+    "kubernetes.io/cluster/eks"       = "shared"
+    "kubernetes.io/role/internal-elb" = 1
   }
 }
 
@@ -81,9 +87,11 @@ resource "aws_subnet" "private_subnet_us_east_1d" {
   map_public_ip_on_launch = var.private_subnet_us_east_1d_map_public_ip_on_launch
 
   tags = {
-    env    = var.environment
-    Name   = "${var.environment}-useast1-private-us-east-1d-sn"
-    access = var.private_subnet_us_east_1d_tag_access
+    env                               = var.environment
+    Name                              = "${var.environment}-useast1-private-us-east-1d-sn"
+    access                            = var.private_subnet_us_east_1d_tag_access
+    "kubernetes.io/cluster/eks"       = "shared"
+    "kubernetes.io/role/internal-elb" = 1
   }
 }
 
@@ -99,9 +107,11 @@ resource "aws_subnet" "private_subnet_us_east_1e" {
   map_public_ip_on_launch = var.private_subnet_us_east_1e_map_public_ip_on_launch
 
   tags = {
-    env    = var.environment
-    Name   = "${var.environment}-useast1-private-us-east-1e-sn"
-    access = var.private_subnet_us_east_1e_tag_access
+    env                               = var.environment
+    Name                              = "${var.environment}-useast1-private-us-east-1e-sn"
+    access                            = var.private_subnet_us_east_1e_tag_access
+    "kubernetes.io/cluster/eks"       = "shared"
+    "kubernetes.io/role/internal-elb" = 1
   }
 }
 
@@ -117,9 +127,11 @@ resource "aws_subnet" "private_subnet_us_east_1f" {
   map_public_ip_on_launch = var.private_subnet_us_east_1f_map_public_ip_on_launch
 
   tags = {
-    env    = var.environment
-    Name   = "${var.environment}-useast1-private-us-east-1f-sn"
-    access = var.private_subnet_us_east_1f_tag_access
+    env                               = var.environment
+    Name                              = "${var.environment}-useast1-private-us-east-1f-sn"
+    access                            = var.private_subnet_us_east_1f_tag_access
+    "kubernetes.io/cluster/eks"       = "shared"
+    "kubernetes.io/role/internal-elb" = 1
   }
 }
 
